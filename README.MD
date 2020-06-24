@@ -6,7 +6,8 @@ Change PROPERTIES_PATH in org.example.Main to absolute path of ./properties.xml
 First two are easy to fix (see commits)
 
 - After getting configs from agent, I still get runtime errors:
-```Exception in thread "main" java.lang.ExceptionInInitializerError
+```
+Exception in thread "main" java.lang.ExceptionInInitializerError
            at com.oracle.svm.core.classinitialization.ClassInitializationInfo.initialize(ClassInitializationInfo.java:291)
            at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.<init>(RuntimeModelBuilder.java:62)
            at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:434)

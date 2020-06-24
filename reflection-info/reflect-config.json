@@ -1,35 +1,93 @@
 [
-    {
-        "name": "com.sun.xml.bind.v2.model.nav.ReflectionNavigator",
-        "allDeclaredMethods":true,
-        "allPublicMethods":true,
-        "allDeclaredConstructors":true,
-        "allPublicConstructors":true,
-        "allDeclaredClasses":true,
-        "allPublicClasses":true
-    }, {
-        "name": "org.example.model.PropertiesXml",
-        "allDeclaredMethods":true,
-        "allPublicMethods":true,
-        "allDeclaredConstructors":true,
-        "allPublicConstructors":true,
-        "allDeclaredClasses":true,
-        "allPublicClasses":true
-    }, {
-        "name": "org.example.model.UrlXml",
-        "allDeclaredMethods":true,
-        "allPublicMethods":true,
-        "allDeclaredConstructors":true,
-        "allPublicConstructors":true,
-        "allDeclaredClasses":true,
-        "allPublicClasses":true
-    }, {
-        "name": "org.example.model.MainUrlXml",
-        "allDeclaredMethods":true,
-        "allPublicMethods":true,
-        "allDeclaredConstructors":true,
-        "allPublicConstructors":true,
-        "allDeclaredClasses":true,
-        "allPublicClasses":true
-    }
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.ContextFactory",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicConstructors":true,
+  "allDeclaredClasses":true,
+  "allPublicClasses":true
+},
+{
+  "name":"com.sun.xml.bind.v2.model.nav.ReflectionNavigator",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicConstructors":true,
+  "allDeclaredClasses":true,
+  "allPublicClasses":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.ArrayElementLeafProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.ArrayElementNodeProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.ArrayReferenceNodeProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleElementNodeProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleReferenceNodeProperty",
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javax.xml.bind.annotation.XmlElement",
+  "methods":[{"name":"type","parameterTypes":[] }]
+},
+{
+  "name":"org.example.model.MainUrlXml",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicConstructors":true,
+  "allDeclaredClasses":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.example.model.PropertiesXml",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicConstructors":true,
+  "allDeclaredClasses":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.example.model.UrlXml",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicConstructors":true,
+  "allDeclaredClasses":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.example.model.UrlXml[]"
+}
 ]

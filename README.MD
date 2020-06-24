@@ -3,7 +3,7 @@
 Change PROPERTIES_PATH in org.example.Main to absolute path of ./properties.xml
 
 # Issues
-First two are easy to fix (see commits)
+See fix below  
 
 - After getting configs from agent, I still get runtime errors:
 ```
@@ -40,3 +40,6 @@ Result after running native (`./target/jaxb`):
 ```
 PropertiesXml{Name='null', Urls=null, MainUrl=null, Title='null'}
 ```
+
+# Fix
+Run agent with caller-filter-file, see details in [this issue](https://github.com/oracle/graal/issues/379#issuecomment-586300863).

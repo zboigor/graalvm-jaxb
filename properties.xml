@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Properties Name="Super cool list of urls">
+    <Title>Urlzz</Title>
+    <MainUrl>
+        <Value>example.org</Value>
+        <Description>Main Example Url</Description>
+    </MainUrl>
+
+    <Url Type="Google">
+        <Value>https://google.com/</Value>
+        <Description>Google Search</Description>
+    </Url>
+    <Url Type="Yandex">
+        <Value>https://yandex.ru</Value>
+        <Description>Yandex Search</Description>
+    </Url>
+    <Url Type="Bing">
+        <Value>https://bing.com</Value>
+        <Description>Bing Search</Description>
+    </Url>
+</Properties>

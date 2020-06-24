@@ -1,0 +1,7 @@
+{
+  "resources":[
+    {"pattern":"\\QMETA-INF/services/javax.xml.bind.JAXBContextFactory\\E"}, 
+    {"pattern":"\\Qcom/sun/xml/bind/v2/runtime/reflect/opt/FieldAccessor_Ref.class\\E"}
+  ],
+  "bundles":[]
+}

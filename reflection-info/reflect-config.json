@@ -1,2 +1,35 @@
 [
+    {
+        "name": "com.sun.xml.bind.v2.model.nav.ReflectionNavigator",
+        "allDeclaredMethods":true,
+        "allPublicMethods":true,
+        "allDeclaredConstructors":true,
+        "allPublicConstructors":true,
+        "allDeclaredClasses":true,
+        "allPublicClasses":true
+    }, {
+        "name": "org.example.model.PropertiesXml",
+        "allDeclaredMethods":true,
+        "allPublicMethods":true,
+        "allDeclaredConstructors":true,
+        "allPublicConstructors":true,
+        "allDeclaredClasses":true,
+        "allPublicClasses":true
+    }, {
+        "name": "org.example.model.UrlXml",
+        "allDeclaredMethods":true,
+        "allPublicMethods":true,
+        "allDeclaredConstructors":true,
+        "allPublicConstructors":true,
+        "allDeclaredClasses":true,
+        "allPublicClasses":true
+    }, {
+        "name": "org.example.model.MainUrlXml",
+        "allDeclaredMethods":true,
+        "allPublicMethods":true,
+        "allDeclaredConstructors":true,
+        "allPublicConstructors":true,
+        "allDeclaredClasses":true,
+        "allPublicClasses":true
+    }
 ]

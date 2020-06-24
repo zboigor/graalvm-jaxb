@@ -1,5 +1,11 @@
+# Setup
+
+Change PROPERTIES_PATH in org.example.Main to absolute path of ./properties.xml
+
 # Issues
-1. After getting configs from agent, I still get runtime errors:
+First two are easy to fix (see commits)
+
+- After getting configs from agent, I still get runtime errors:
 ```Exception in thread "main" java.lang.ExceptionInInitializerError
            at com.oracle.svm.core.classinitialization.ClassInitializationInfo.initialize(ClassInitializationInfo.java:291)
            at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.<init>(RuntimeModelBuilder.java:62)
@@ -22,4 +28,14 @@
            at com.oracle.svm.core.classinitialization.ClassInitializationInfo.invokeClassInitializer(ClassInitializationInfo.java:351)
            at com.oracle.svm.core.classinitialization.ClassInitializationInfo.initialize(ClassInitializationInfo.java:271)
            ... 12 more
+```
+- Default constructors from xml elements are missed 
+- Parsing doesn't work:  
+Result after running from jar (`java -jar ./target/jaxb.jar`):  
+```
+PropertiesXml{Name='Super cool list of urls', Urls=[UrlXml{Type='Google', Value='https://google.com/', Description='Google Search'}, UrlXml{Type='Yandex', Value='https://yandex.ru', Description='Yandex Search'}, UrlXml{Type='Bing', Value='https://bing.com', Description='Bing Search'}], MainUrl=MainUrlXml{Value='example.org', Description='Main Example Url'}, Title='Urlzz'}
+```
+Result after running native:  
+```
+PropertiesXml{Name='null', Urls=null, MainUrl=null, Title='null'}
 ```

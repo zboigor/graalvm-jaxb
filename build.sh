@@ -4,4 +4,4 @@ export JAVA_HOME=$GRAALVM_HOME
 
 mvn clean install
 java -agentlib:native-image-agent=config-merge-dir=./reflection-info -jar ./target/jaxb.jar
-./target/sandbox
+./target/jaxb

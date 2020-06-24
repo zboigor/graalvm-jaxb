@@ -36,7 +36,7 @@ Result after running from jar (`java -jar ./target/jaxb.jar`):
 ```
 PropertiesXml{Name='Super cool list of urls', Urls=[UrlXml{Type='Google', Value='https://google.com/', Description='Google Search'}, UrlXml{Type='Yandex', Value='https://yandex.ru', Description='Yandex Search'}, UrlXml{Type='Bing', Value='https://bing.com', Description='Bing Search'}], MainUrl=MainUrlXml{Value='example.org', Description='Main Example Url'}, Title='Urlzz'}
 ```
-Result after running native:  
+Result after running native (`./target/jaxb`):  
 ```
 PropertiesXml{Name='null', Urls=null, MainUrl=null, Title='null'}
 ```

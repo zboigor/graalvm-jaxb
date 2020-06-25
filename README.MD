@@ -43,3 +43,4 @@ PropertiesXml{Name='null', Urls=null, MainUrl=null, Title='null'}
 
 # Fix
 Run agent with caller-filter-file, see details in [this issue](https://github.com/oracle/graal/issues/379#issuecomment-586300863).
+Fix for current repo is in line 6 in [build.sh](https://github.com/zboigor/graalvm-jaxb/blob/dbd405720c9d25f86f430b5a8c8328dab007a932/build.sh#L6).
